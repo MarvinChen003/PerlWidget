@@ -1,0 +1,18 @@
+#!/usr/bin/perl
+# hello.pl by Bill Weinman <http://bw.org/contact/>
+# This is a script used for reading feed file.
+# Author Marvin @20160606
+
+use strict;
+use warnings;
+
+my $feed="feedFile";
+
+open (FH, "<","$feed") || die "Can't open the file.";
+
+while(<FH>)
+{
+   print "$_";
+}
+
+close(FH)
