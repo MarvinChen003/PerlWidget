@@ -1,2 +1,2 @@
 # PerlWidget
-This is a tool cabinet for written by perl script
+This is a tool cabinet written by perl script
